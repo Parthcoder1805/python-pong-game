@@ -3,7 +3,7 @@ from paddle import Paddle
 from ball import Ball
 import time
 from scoreboard import Scoreboard
-
+from middle_line import MiddleLine
 
 
 screen = Screen()
@@ -17,6 +17,7 @@ r_paddle = Paddle((350,0))
 l_paddle = Paddle((-350,0))
 ball = Ball()
 scoreboard = Scoreboard()
+middle_line = MiddleLine()
 
 
 screen.listen()
@@ -32,6 +33,7 @@ while game_is_on:
     time.sleep(ball.move_speed)
     screen.update()
     ball.move()
+    middle_line.draw_line()
 
 
     #Detect collision with the wall
