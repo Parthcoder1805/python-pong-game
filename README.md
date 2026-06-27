@@ -35,6 +35,13 @@ python main.py
 <img width="987" height="785" alt="image" src="https://github.com/user-attachments/assets/4d0b2704-b7dd-4927-bceb-2a165d8314f1" />
 
 
+## 🚀 Future Updates
+
+- 🔊 Sound effects
+- 🎨 Improved game UI
+- ⏸️ Pause and Resume feature
+- 🏆 Winning score limit
+- 🤖 Single-player mode with AI
 
 
 ## ❤️ Author
